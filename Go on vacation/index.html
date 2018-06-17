@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Plan your vacation!</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'/>
+        <script type='text/javascript' src='script.js'></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+	</head>
+	<body>
+	<div id="header"><h1>Plan your vacation!</h1></div>
+        <div id="wrapper">
+            <div id="inputs">
+                <form name="input" action="#" method="post">
+            	    First name: <input type="text" name="firstname" value="first name"><br/>
+            	    Last name: <input type="text" name="lastname" value="last name"><br/>
+            	    E-mail: <input type="email" name="email" value="e-mail address"><br/><br/>
+                
+		
+			<h2><br/>Select a Destination</h2>
+		</div>
+        <div class="left">
+            <p>Departing: <input type="text" id="departing"></p>
+        </div>
+        <div class="right">
+            <p>Returning: <input type="text" id="returning"></p>
+        </div><br/>
+        <div id="main">
+        	<p>Destination: <select id="dropdown">
+              <option value=""></option><option value="newyork">New York</option>
+				<option value="london">London</option>
+				<option value="beijing">Beijing</option>
+				<option value="bali">Bali</option>
+              <option value="rome">Rome</option>
+              
+			</select></p>
+			<button>Submit</button>
+          </form>
